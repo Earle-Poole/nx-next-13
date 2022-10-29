@@ -6,7 +6,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to nx-next-13!</title>
+        <title>Welcome to Next 13 in a Nx system!</title>
       </Head>
       <main className="app">
         <Component {...pageProps} />
