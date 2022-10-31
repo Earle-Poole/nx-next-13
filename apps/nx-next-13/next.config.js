@@ -12,6 +12,16 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+        port: '',
+        pathname: '/PokeAPI/sprites/**',
+      },
+    ],
+  },
   experimental: { appDir: true },
 };
 

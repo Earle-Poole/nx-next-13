@@ -24,7 +24,8 @@
     "**/*.js",
     "**/*.jsx",
     "next-env.d.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "app/[name]"
   ],
   "exclude": ["node_modules", "jest.config.ts"]
 }
