@@ -6,6 +6,7 @@
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
       "rules": {
+        "@next/next/no-head-element": [0],
         "@nrwl/nx/enforce-module-boundaries": [
           "error",
           {
